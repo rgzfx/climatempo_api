@@ -17,7 +17,7 @@ O campo <nome_cidade> deve ser substituido pelas seguintes opções:
 
 <p><p>Url responsável por recuperar o id na base local e consultar na api o tempo no momento.</p></p>
 
-para iniciar a aplicação é necessário instalar as requirements (/requirements.txt) e executar o comando
+para iniciar a aplicação é necessário instalar as <p>requirements</b> (/requirements.txt) e executar o comando
 
 <p><b>python3 run.py</p></b>
 
@@ -25,4 +25,4 @@ Após a inicialização o serviço estará disponível no seu ip local, utilizan
 
 <p><b>127.0.0.1:3000</p></b>
 
-O banco de dados (banco.db) persiste o histórico de consultas climáticas e id's para consulta na api
+O banco de dados (/banco.db) persiste o histórico de consultas climáticas e id's para consulta na api
