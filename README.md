@@ -1,7 +1,7 @@
 # climatempo_api
 
 Uma simples aplicação REST em Python utilizando o framework Flask e banco de dados SQLite
-A aplicação possui 1 rota/url básica:
+A aplicação possui 2 rotas/url básicas:
 
 /weather/<nome_cidade>
 
@@ -16,7 +16,8 @@ Salvador,
 Maceió, 
 
 Url responsável por recuperar o id na base local e consultar na api o tempo no momento.
-para iniciar a aplicação é necessário instalar as requeriments (/requeriments.txt) e executar o comando
+
+para iniciar a aplicação é necessário instalar as requirements (/requirements.txt) e executar o comando
 
 python3 run.py
 
