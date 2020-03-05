@@ -5,7 +5,7 @@ A aplicação possui rota/url básicas:
 
 <p><b>/weather/<nome_cidade></p></b>
 
-Url responsável por gerenciar a requisição entre esta api e a api de serviço metereológico, e persistir os dados no banco.
+Url responsável por gerenciar a requisição entre esta api e a api de serviço metereológico (Clima Tempo), buscando o id da cidade na base e persistir os dados recebidos no banco.
 O campo <nome_cidade> deve ser substituido pelas seguintes opções:
 
 <p><b>São Paulo</b></p> 
@@ -15,7 +15,7 @@ O campo <nome_cidade> deve ser substituido pelas seguintes opções:
 <p><b>Salvador</b></p>
 <p><b>Maceió</b></p>
 
-<p><p>Url responsável por recuperar o id na base local e consultar na api o tempo no momento.</p></p>
+
 
 Para iniciar a aplicação é necessário instalar os <b>requirements</b> (/requirements.txt) e executar o comando
 
