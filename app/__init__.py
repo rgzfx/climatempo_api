@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
 import requests
-from app.methods import consulta_id, get_clima, historico_clima, insert, get_id
+from app.methods import consulta_id, get_clima, insert
 import sqlite3
 
 
