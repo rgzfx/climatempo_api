@@ -3,7 +3,7 @@
 Uma simples aplicação REST em Python utilizando o framework Flask e banco de dados SQLite
 A aplicação possui rota/url básicas:
 
-<p><b>/weather/<nome_cidade></p></b>
+<b> /weather/<nome_cidade> </b>
 
 Url responsável por gerenciar a requisição entre esta api e a api de serviço metereológico (Clima Tempo), buscando o id da cidade na base e persistir os dados recebidos no banco.
 O campo <nome_cidade> deve ser substituido pelas seguintes opções:
