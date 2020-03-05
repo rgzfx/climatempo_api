@@ -8,12 +8,12 @@ A aplicação possui 1 rota/url básica:
 Url responsável por gerenciar a requisição entre esta api e a api de serviço metereológico, e persistir os dados no banco.
 O campo <nome_cidade> deve ser substituido pelas seguintes opções:
 
-São Paulo
-São Carlos
-Santos
-Rio do Janeiro
-Salvador
-Maceió
+São Paulo, 
+São Carlos, 
+Santos, 
+Rio do Janeiro, 
+Salvador, 
+Maceió, 
 
 Url responsável por recuperar o id na base local e consultar na api o tempo no momento.
 para iniciar a aplicação é necessário instalar as requeriments (/requeriments.txt) e executar o comando
