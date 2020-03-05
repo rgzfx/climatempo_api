@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request
 import requests
 from app.methods import consulta_id, get_clima, insert
 import sqlite3
