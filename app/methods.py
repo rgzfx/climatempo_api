@@ -33,20 +33,12 @@ def consulta_id(nome_cidade):
 
         return result[0][0]
     
-    
-    
+            
+        
 
-def historico_clima(nome_cidade):
-        
-        historico = query(""" SELECT * FROM previsao WHERE name = '{}' """.format(nome_cidade))
-        
-        return str(historico)
-        
-        
 def get_clima(id_cidade):
         
-        #id_cidade = consulta_cidade(nome_cidade)
-        
+              
         result = requests.get('http://apiadvisor.climatempo.com.br/api/v1/weather/locale/{}/current?token=b22460a8b91ac5f1d48f5b7029891b53'.format(id_cidade)).json()
         
         return result

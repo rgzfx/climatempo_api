@@ -7,14 +7,6 @@ import sqlite3
 app = Flask(__name__)
 
 
-@app.route('/historico/<nome_cidade>')
-def historico(nome_cidade):
-    
-    consulta1 = historico_clima(nome_cidade)
-    
-    return consulta1
-
-
 @app.route('/weather/<nome_cidade>')
 def weather(nome_cidade):
     
