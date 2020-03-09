@@ -81,5 +81,11 @@ def insert(data):
         
         result = query(sql)
         
-        return True
+        return weather
+
+def conulta_historico(nome_cidade):
+        
+        result = query (""" SELECT * FROM previsao WHERE name = '{}' """.format(nome_cidade))
+        
+        return result
 

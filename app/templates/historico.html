@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Test App</title>
+ <style>
+    table, th, td { border-style: solid;
+                    border-width: 1px;
+                    border-color: black;
+                    border-collapse:collapse;}
+    th, td { padding: 15px;}
+    table { width:75%}
+    th { text-align: center;}
+    td {text-align: center;}
+    .r{text-align: left;}
+    thead {background-color: #3f87a6;
+    color: #fff;}
+    tfoot {background-color: #56A2C1;
+    color: #000;}
+    tbody {background-color: #e4f0f5;
+    color: #000;}
+</style>
+</head>
+<body>
+
+        
+            <table class="table table-striped table-responsive table-bordered">
+                <thead>
+                    <tr>
+                        <th>Cidade</th>
+                        <th>Estado</th>
+                        <th>País</th>
+                        <th>Temperatura</th>
+                        <th>Direção do vento</th>
+                        <th>Velocidade do vento</th>
+                        <th>Umidade</th>
+                        <th>Condição</th>
+                        <th>Pressão</th>
+                        <th>Sensação</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    {% for values in foobar  %}
+                    
+                                <tr>
+                                    <td> {{ values[2] }} </td>
+                                    <td> {{ values[3] }} </td>
+                                    <td> {{ values[4] }} </td>
+                                    <td> {{ values[5] }} </td>
+                                    <td> {{ values[6] }} </td>
+                                    <td> {{ values[7] }} </td>
+                                    <td> {{ values[8] }} </td>
+                                    <td> {{ values[9] }} </td>
+                                    <td> {{ values[10] }} </td>
+                                    <td> {{ values[11] }} </td>
+                                    <td> {{ values[12] }} </td>
+                                    
+                                </tr>
+                {% endfor %}
+    
+                </tbody>
+            </table>
+       
+
+        </body>
+</html>

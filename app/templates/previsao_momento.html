@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Previsão do tempo no momento</title>
+<style> 
+  table, th, td { border-style: solid;
+                    border-width: 1px;
+                    border-color: black;
+                    border-collapse:collapse;}
+    th, td { padding: 15px;}
+    table { width:50%}
+    th { text-align: center;}
+    td {text-align: rigth;}
+    .r{text-align: left;}
+    thead {background-color: #3f87a6;
+    color: #fff;}
+    tfoot {background-color: #56A2C1;
+    color: #000;}
+    tbody {background-color: #e4f0f5;
+    color: #000;}
+    </style>
+</head>
+<body>
+<table>
+
+    <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Previsao</th>
+            </tr>
+
+    </thead>
+
+    <tbody>
+            {% for key, value in foobar.items() %}
+
+            <tr>
+
+                <td>{{ key }}</td>
+                <td>{{ value }}</td>
+
+            </tr>
+            {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>
