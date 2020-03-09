@@ -16,7 +16,7 @@ O campo <nome_cidade> deve ser substituido pelas seguintes opções:
 <p><b>Salvador</b></p>
 <p><b>Maceió</b></p>
 
-<b> /weather/<nome_cidade> </b>
+<b> /historico/<nome_cidade> </b>
   
 <p>Url responsável por buscando o histórico de pesquisas da cidade no banco e exibir uma tabela com os resultados.</p>
 
