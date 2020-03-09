@@ -1,6 +1,6 @@
 # climatempo_api
 
-Uma simples aplicação REST em Python utilizando o framework Flask e banco de dados SQLite
+Uma simples aplicação REST em Python utilizando o framework Flask e banco de dados SQLite.
 A aplicação possui 2 rotas/urls básicas:
 
 <b> /weather/<nome_cidade> </b>
